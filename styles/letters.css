@@ -1,0 +1,14 @@
+.o, .n, .e, .m, .r, .t, .a, .s {
+  font-family: Noto, serif;
+  font-size: 120px;
+  color: #45556b;
+  font-weight: bold;
+  margin-bottom: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.o:hover, .n:hover, .e:hover, .m:hover, .r:hover, .t:hover, .a:hover, .s:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px rgba(247, 99, 0, 0.6);
+  text-shadow: 5px 5px 20px rgba(247, 99, 0, 0.6);
+}
